@@ -49,7 +49,7 @@ ul{
 /*--header--*/
 /*--header-top--*/
 .header-top{
-background:#fff;
+background:rgba(243, 72, 4, 0.993);
 min-height:32px;
 padding:1.5em 0;
 position: fixed;

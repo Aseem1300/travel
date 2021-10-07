@@ -13,7 +13,7 @@ while($data=mysqli_fetch_array($result))
 			 <div class="top-nav">
 			 <div><img src="images/" id="section-1" class="img-responsive" alt=""/></div>
 						<div class="logo">
-						<a href="#"><img src="images/final-logo.png" id="section-1" class="img-responsive" alt=""style='width:200px;height:100px;'/></a>
+						<a href="#"><img src="../images/final-logo.png" id="section-1" class="img-responsive" alt=""style='width:200px;height:100px;'/></a>
 						</div>
 						<div class="menu">
 						<ul id="nav">

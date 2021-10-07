@@ -260,7 +260,7 @@ if(isset($_POST["sbmt"]))
 		if($f1>0&& $f2>0&&$f3>0)
 		{
 	
-	$s="insert into package(packname,category,subcategory,packprice,pic1,pic2,pic3,detail) values('" . $_POST["t1"] ."','" . $_POST["t2"] . "','" . $_POST["t3"] ."','". $_POST["t8"] . "','" . basename($_FILES["t4"]["name"]) . "','" . basename($_FILES["t5"]["name"]) . "','" . basename($_FILES["t6"]["name"]) . "','" . $_POST["t7"] ."')";
+	$s="insert into package(Packname,Category,Subcategory,Packprice,Pic1,Pic2,Pic3,Detail) values('" . $_POST["t1"] ."','" . $_POST["t2"] . "','" . $_POST["t3"] ."','". $_POST["t8"] . "','" . basename($_FILES["t4"]["name"]) . "','" . basename($_FILES["t5"]["name"]) . "','" . basename($_FILES["t6"]["name"]) . "','" . $_POST["t7"] ."')";
 	mysqli_query($cn,$s);
 	mysqli_close($cn);
 	echo "<script>alert('Record Save');</script>";
